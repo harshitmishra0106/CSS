@@ -1,0 +1,47 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content : 'Welcome to my page';
+}
+@media(max-width: 400px){
+    body{
+        background-color: yellow    ;
+    }
+    div::after{
+        content : 'woh its working';
+        
+    }
+}
+@media (min-width: 400px) and (max-width: 768px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content : 'woh its working';
+        
+    }
+}
+@media(min-width: 768px){
+
+    body{
+        background-color: blueviolet;
+    }
+    div::after{
+        content : 'woh its for smaller device';
+        
+    }
+}
+@media(min-width: 900px){
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content : 'woh its working';
+        
+    }
+}

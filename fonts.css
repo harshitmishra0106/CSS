@@ -1,0 +1,18 @@
+*{
+    /* background styles */
+    background-color:yellowgreen ;
+    background-image: url(https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    
+    
+    color: aliceblue;
+
+    /* link of font for css  */
+
+font-family: 'Gabarito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}

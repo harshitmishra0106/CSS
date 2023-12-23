@@ -1,0 +1,13 @@
+.h{
+    color: black;
+    background-color:chartreuse;
+    font-size: large;
+    text-align: center;
+}
+.p{
+    color: black;
+    background-color: aqua;
+    border: 1px solid black;
+    font-size: small;
+    text-align: center;
+}
